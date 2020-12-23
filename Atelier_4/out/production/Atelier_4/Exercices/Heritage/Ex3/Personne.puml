@@ -1,0 +1,15 @@
+@startuml
+
+Class Personne {
+       String nom
+       String prénom
+       int date de naissance
+       String adresse
+       String ville
+       + String toString ()
+       + modifiePersonne (String adresse, String ville)
+       + ecrirePersonne(abstract)
+
+
+}
+@enduml
